@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+i{
+    color: rgb(235, 221, 221);
+    cursor: pointer;
+    font-size: 25 px;
+    position: relative;
+    margin-left: 15px;
+}
+
+span{
+    position: absolute;
+    font-size: 14px;
+    background-color: rgb(247, 247, 241);
+    color: black;
+    padding: 2px 4px;
+    border-radius: 100%;
+    top: -13px;
+    right: -13px;
+}
+
+a{
+    color: rgb(240, 240, 232);
+    cursor: pointer;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.box{
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+
+body{
+    transition: .6s;
+}
+
+input{
+    width: 5%;
+}
+
+#card{
+    height: 450px !important;
+    width: 100% !important;
+    img{
+        width: 100% !important;
+        height: 200px !important;
+        gap: 2;
+    }
+}

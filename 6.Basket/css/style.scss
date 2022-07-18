@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+i{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-size: 25 px;
+    position: relative;
+}
+
+span{
+    position: absolute;
+    font-size: 14px;
+    background-color: yellow;
+    color: black;
+    padding: 2px 4px;
+    border-radius: 100%;
+    top: -13px;
+    right: -13px;
+}
+
+a{
+    color: yellow;
+    cursor: pointer;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+.box{
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 20px 0;
+}
+
+img{
+    width: 100%;
+}
+
+body{
+    transition: .6s;
+}
+
+input{
+    width: 5%;
+}
+
